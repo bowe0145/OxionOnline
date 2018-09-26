@@ -1,0 +1,1 @@
+Elrue: To make 1 Elrue, it requires the cost and as well the time as if making a full stack of 10s. The 1 Elrue sell's for the price of 10, 80s. As well, the materials to make it are required x10.

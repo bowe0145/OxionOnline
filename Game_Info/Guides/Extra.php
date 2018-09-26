@@ -1,0 +1,1 @@
+In need of a buff? No cleric's around? Head over to Portal Map, located through any gate map. Talk to Dreian Uriel, next to the 3x Abyss. She will give you a buff.

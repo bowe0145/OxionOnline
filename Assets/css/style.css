@@ -1,0 +1,762 @@
+/* Downloads */
+
+.DownloadButton {
+  width: 281px;
+  height: 60px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.ExeDirect {
+  background-image: url('../img/Download/Exe_Direct_Download.png');
+}
+
+.ExeDirect:hover {
+  background-image: url('../img/Download/HExe_Direct_Download.png');
+}
+
+.ExeMediafire {
+  background-image: url('../img/Download/Exe_Mediafire_Download.png');
+}
+
+.ExeMediafire:hover {
+  background-image: url('../img/Download/HExe_Mediafire_Download.png');
+}
+
+.ExeMega {
+  background-image: url('../img/Download/Exe_Mega_Download.png');
+  margin-bottom: 30px;
+}
+
+.ExeMega:hover {
+  background-image: url('../img/Download/HExe_Mega_Download.png');
+  margin-bottom: 30px;
+}
+
+.RarDirect {
+  background-image: url('../img/Download/Rar_Direct_Download.png');
+}
+
+.RarDirect:hover {
+  background-image: url('../img/Download/HRar_Direct_Download.png');
+}
+
+.RarMediafire {
+  background-image: url('../img/Download/Rar_Mediafire_Download.png');
+}
+
+.RarMediafire:hover {
+  background-image: url('../img/Download/HRar_Mediafire_Download.png');
+}
+
+.RarMega {
+  background-image: url('../img/Download/Rar_Mega_Download.png');
+  margin-bottom: 30px;
+}
+
+.RarMega:hover {
+  background-image: url('../img/Download/HRar_Mega_Download.png');
+  margin-bottom: 30px;
+}
+
+
+/* Staff */
+
+#StaffTitle {
+  width: 193px;
+  height: 31px;
+  background-image: url('../img/staff_Page/StaffName.png');
+  margin-bottom: -7px;
+  margin-left: 2px;
+}
+
+#StaffBody {
+  width: 750px;
+  height: 875px;
+  background-image: url('../img/staff_Page/Staff_BG.png');
+  background-repeat: no-repeat;
+  padding: 20px;
+  position: relative;
+}
+
+.StaffTitleName {
+  height: 60px;
+  width: 257px;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.OwnerTitle {
+  top: 20px;
+  left: 135px;
+  background-image: url('../img/staff_Page/Owner Title.png'); 
+}
+
+.AdminTitle {
+  top: 20px;
+  left: 335px;
+  background-image: url('../img/staff_Page/Admins Title.png'); 
+}
+
+.DevTitle {
+  top: 270px;
+  left: 80px;
+  background-image: url('../img/staff_Page/Developer Title.png'); 
+}
+
+.WebDevTitle {
+  top: 270px;
+  left: 400px;
+  background-image: url('../img/staff_Page/Web_Dev Title.png');  
+}
+
+.GFXTitle {
+  top: 520px;
+  left: 420px;
+  background-image: url('../img/staff_Page/Graphic_Designers Title.png');
+}
+
+.CLTitle {
+  top: 520px;
+  left: 40px;
+  background-image: url('../img/staff_Page/Community_Leader Title.png');
+}
+
+.StaffFrame {
+  width: 127px;
+  height: 127px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.OwnerFrame {
+  top: 100px;
+  left: 200px;
+  background-image: url('../img/staff_Page/Owner_Frame.png');
+}
+
+.AdminFrame {
+  top: 100px;
+  left: 400px;
+  background-image: url('../img/staff_Page/Admin_Frame.png');
+}
+
+.DevFrame {
+  top: 340px;
+  left: 140px;
+  background-image: url('../img/staff_Page/Dev_Frame.png');
+}
+
+.WebDevFrame {
+  top: 340px;
+  left: 460px;
+  background-image: url('../img/staff_Page/WebDev_Frame.png');
+}
+
+.CLFrame {
+  top: 594px;
+  left: 110px;
+  background-image: url('../img/staff_Page/CL_Frame.png');
+}
+
+.GFXFrame {
+  top: 594px;
+  left: 480px;
+  background-image: url('../img/staff_Page/GFX_Frame.png');
+}
+
+/* Account */
+
+#MyAccount {
+  color: #000000!important;
+}
+
+#MyAccount p {
+  color: #000000!important;
+}
+
+#AccountInfo {
+  color: #000000!important;
+}
+
+
+/* Guides */
+
+#GuideContainer {
+  min-height: 400px;
+}
+
+/* Carousel */
+
+.arrow-next, .arrow-prev {
+  margin-left: 5px;
+  margin-right: 5px;
+  position: relative;
+  display: inline-block;
+  height: 21px;
+  width: 20px;
+  background-repeat: no-repeat;
+}
+
+.dot, .active-dot {
+  margin-left: 2px;
+  margin-right: 2px;
+  position: relative;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  top: 5px;
+  background-repeat: no-repeat;
+}
+
+.dot {
+  background-image: url('../img/Slideshow/Dot.png');
+}
+
+.active-dot {
+  background-image: url('../img/Slideshow/HDot.png');
+}
+
+#carousel {
+  position: relative;
+}
+
+#carousel-bottom {
+  z-index: 6;
+  position: relative;
+  left: 1px;
+  width: auto;
+  height: 31px;
+  background-image: url('../img/Slideshow/slide_page_bg.png');
+}
+
+#carousel-bottom .bottom_buttons {
+  margin: auto;
+  text-align: center;
+  display: table;
+  vertical-align: middle;
+  z-index: 7;
+  margin-right: auto;
+  margin-left: auto;
+  width: auto;
+  height: 31px;
+}
+
+#carousel ul, #carousel li {
+  padding: 0;
+  list-style: none;
+  list-style-type: none;
+  z-index: 5;
+}
+
+#carousel ul {
+  position: relative;
+  width: 100%;
+  margin: 0;
+}
+
+.slideImg {
+  width: inherit;
+}
+
+.slide {
+  display: none!important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.active-slide {
+  display: block!important;
+}
+
+/* Nav Bar */
+
+#navbar-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navBar-background {
+  background-image: url('../img/Menu/NavBackground.png');
+  width: 1018px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  width: auto!important;
+}
+
+.verticalBreak {
+  width: 1040px;
+  border-top: 3px solid #a9d1ed;
+  border-bottom: 3px solid #a9d1ed;
+}
+
+/* Side Bar */
+
+#VoteButton, #DonateButton {
+  float: right;
+}
+
+/* Login */
+#LoginBox {
+  background-image: url('../img/Box/UCP_Box.png');
+  background-repeat: no-repeat;
+  position: relative;
+  float: right;
+  width: 239px;
+  height: 214px;
+  box-sizing: content-box;
+  padding-bottom: 20px;
+}
+
+#LoginBox form {
+  color: white;
+  padding: 35px 10px 10px 10px;
+}
+
+#LoginBox input[type=submit] {
+  color: black!important;
+}
+
+#LoginBox input[type="text"], #LoginBox input[type="password"] {
+  width: 200px;
+  color: black!important;
+}
+
+/* Server Status */
+
+#ServerStatus {
+  background-image: url('../img/Box/ServerStatu_Box.png');
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  float: right;
+  width: 247px;
+  height: 217px;
+  box-sizing: content-box;
+  padding-bottom: 20px;
+}
+
+#ServerStatus h2 {
+  position: absolute;
+  display: block;
+  top: 72px;
+  left: 130px;
+  text-shadow: 0px 0px 4px rgba(255, 255, 255, 1);
+}
+
+h2.online {
+  color: green!important;
+}
+
+h2.offline {
+  color: red!important;
+}
+
+/* Top Players */
+
+#TopPlayers tr {
+  height: 41px;
+  color: rgb(224, 224, 224);
+}
+
+#TopPlayers tbody, #TopPlayers table {
+  margin-left: 20px;
+}
+
+#TopPlayers td {
+vertical-align: middle;
+  color: rgb(224, 224, 224);
+  font-size: 1.1em;
+}
+
+#TopPlayers .PlayerName {
+	padding-left: 10px;
+	width: 130px;
+}
+
+#TopPlayers .PlayerLevel {
+	width: 30px;
+}
+
+#TopPlayers .PlayTime {
+	width: 50px;
+	text-align: center;
+}
+
+#TopPlayers .Rank1 {
+	color: #FFD700;
+	text-shadow: 0px 0px 8px rgba(255, 215, 0, 1);
+}
+
+#TopPlayers .Rank2 {
+	color: #C0C0C0;
+	text-shadow: 0px 0px 6px rgba(192, 192, 192, 1);
+}
+
+#TopPlayers .Rank3 {
+	color: #CD7F32;
+	text-shadow: 0px 0px 4px rgba(205, 127, 50, 1);
+}
+
+#TopPlayers {
+  padding-top: 37px;
+  background-image: url('../img/Box/Ranking_Box.png');
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  float: right;
+  width: 237px;
+  height: 451px;
+  box-sizing: content-box;
+  padding-bottom: 20px;
+}
+
+/* Trailer */
+
+#Trailer {
+  background-image: url('../img/Box/Trailer_Box.png');
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  float: right;
+  width: 277px;
+  height: 254px;
+  box-sizing: content-box;
+  padding-bottom: 20px;
+}
+
+/* News and Patch */
+
+.NewsTitle, .PatchTitle {
+  display: inline-block;
+  margin-bottom: -7px;
+  margin-left: -10px;
+  width: 183px;
+  height: 32px;
+}
+
+.NewsTitle {
+  background-image: url('../img/News_Patch/News.png');
+}
+
+.PatchTitle {
+  background-image: url('../img/News_Patch/Patch.png');
+}
+
+.NewsTitle.ActiveTitle {
+  margin-left: 0px;
+  width: 166px;
+  height: 32px;
+  background-image: url('../img/News_Patch/HNews.png');
+}
+
+.PatchTitle.ActiveTitle {
+  margin-left: 0px;
+  width: 166px;
+  height: 32px;
+  background-image: url('../img/News_Patch/HPatch.png');
+}
+
+.ActiveTitle {
+  display: inline-block;
+  width: 166px;
+  height: 32px;
+}
+
+.NewsPatchBox {
+  height: auto;
+  width: auto;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: #fff!important;
+}
+
+.NewsPatchBox .Container {
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+}
+
+.NewsPatchBox {
+  font-family: 'Merriweather', serif;
+  background-image: url('../img/News_Patch/Bg.png');
+}
+
+/* Footer */
+
+footer {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  position: relative;
+  width: 1046px;
+  height: auto;
+  display: inline!important;
+}
+
+h {
+  color: #ccc;
+}
+
+footer a {
+  color: white;
+}
+
+footer h {
+  font-family: 'Merriweather', serif;
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  min-height: 317px;
+}
+
+footer #home, footer #account, footer #support, footer #policy{
+  display: block;
+  width: auto;
+  float: left;
+  padding-right: 5px;
+  padding-left: 10px;
+}
+
+footer #find {
+  margin-top: -20px;
+  display: block;
+  width: auto;
+  float: right;
+  margin-right: 5px;
+  padding-right: 10px;
+  padding-left: 5px;
+}
+
+#header {
+  width: auto;
+  height: 173px;
+}
+
+.row {
+  margin-top: 20px;
+}
+
+.dotHolder {
+  display: inline-block;
+}
+
+#wrap {
+
+  padding-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 1046px;
+  z-index: -9999;
+}
+
+.pagebody {
+z-index: 5;
+ 
+}
+
+@media (min-width:768px) { 
+ .navbar > .container {
+    text-align: center;
+ }
+ .navbar-header {
+    float: none;
+    display: inline-block;
+ }
+ .navbar-brand {
+    float: none;
+    display: inline-block;
+ }
+ .navbar .navbar-nav {
+    float: none;
+    display: inline-block;
+    clear: none;
+ }
+
+ .navbar .navbar-nav > li li {
+    text-align: left
+ }
+ /*add id of centerednav on the collapse or it won't work*/
+ .collapse.navbar-collapse#centerednav {
+    float: none;
+    display: inline-block!important;
+    width: auto;
+    clear: none;
+ }
+}
+
+#menu {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1040px;
+}
+
+.centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.news_Nav, .ginfo_Nav, .forum_Nav, .iMall_Nav, .download_Nav, .UCP_Nav, .faq_Nav, .sTeam_Nav {
+  width: 130px;
+  height: 47px;
+}
+
+.news_Nav {
+  background-image: url('../img/Menu/News.png');
+}
+
+.news_Nav:hover{
+  background-image: url('../img/Menu/HNews.png');
+}
+
+.ginfo_Nav {
+  background-image: url('../img/Menu/Infos.png');
+}
+
+.ginfo_Nav:hover {
+  background-image: url('../img/Menu/HInfos.png');
+}
+
+.forum_Nav {
+  background-image: url('../img/Menu/Forum.png');
+}
+
+.forum_Nav:hover {
+  background-image: url('../img/Menu/HForum.png');
+}
+
+.iMall_Nav {
+  background-image: url('../img/Menu/Mall.png');
+}
+
+.iMall_Nav:hover {
+  background-image: url('../img/Menu/HMall.png');
+}
+
+.download_Nav {
+  background-image: url('../img/Menu/Download.png');
+}
+
+.download_Nav:hover {
+  background-image: url('../img/Menu/HDownload.png');
+}
+
+.UCP_Nav {
+  background-image: url('../img/Menu/UCP.png');
+}
+
+.UCP_Nav:hover {
+  background-image: url('../img/Menu/HUCP.png');
+}
+
+.faq_Nav {
+  background-image: url('../img/Menu/Faq.png');
+}
+
+.faq_Nav:hover {
+  background-image: url('../img/Menu/HFaq.png');
+}
+
+.sTeam_Nav {
+  background-image: url('../img/Menu/Staff.png');
+}
+
+.sTeam_Nav:hover {
+  background-image: url('../img/Menu/HStaff.png');
+}
+
+#MainElement {
+  color: #FFFFFF;
+}
+
+body {
+  background-image: url('../img/background.png');
+  background-color: #000000!important;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+/* NEW STUFF */
+
+.pagebody .container {
+  padding-top: 30px;
+}
+
+#mainPageBody {
+  display: inline-block;
+  float: left;
+  width: auto;
+  min-width: 750px;
+  max-width: 750px;
+  height: auto;
+  padding-left: 5px;
+}
+
+.MainElement {
+  color: white;
+  padding-bottom: 20px;
+  width: auto;
+  height: auto;
+}
+
+.MainElement ul, .MainElement p {
+  color: white;
+}
+
+#mainPageSide {
+  float: right!important;
+  display: block;
+  position: relative
+  top: 0px;
+  width: 220px;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+/* Raffle */
+
+#RaffleContainer {
+	background-image: url('../img/Raffle/Raffle BG.png');
+	padding-top: 17px;
+	background-repeat: no-repeat;
+}
+
+#RaffleContainer .PrizePool {
+	margin-left: 290px;
+	
+}
+
+#RaffleContainer .TimeRemaining {
+	margin-left: 185px;
+	padding-top: 1px;
+}
+
+#RaffleContainer .TotalEntries {
+    margin-left: 125px;
+    padding-top: 1px;
+}
+
+#RaffleContainer .JoinRaffle {
+	cursor:pointer;
+	width: 270px;
+	height: 75px;
+	background-image: url('../img/Raffle/Button.png');
+	margin-right: auto;
+	margin-left: auto;
+}

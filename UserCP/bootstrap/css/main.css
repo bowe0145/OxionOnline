@@ -1,0 +1,23 @@
+body {
+    
+}
+
+#wrapper {
+    width: 500px;
+    margin:  0 auto;
+}
+
+#login {
+    width: 500px;
+    margin: 200px auto;
+    background-color: #F1F1F1;
+    text-align: center;
+}
+
+.input {
+    text-align: center;
+}
+
+#msg {
+    display: none;
+}
